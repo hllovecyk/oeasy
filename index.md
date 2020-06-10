@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玩</title>
+  
+  <style>
+     img
+{
+opacity:0.4;
+filter:alpha(opacity=40); 
+}
+img:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); 
+} 
+  
+  div
+{
+width:100px;
+height:75px;
+background-color:yellow;
+border:1px solid black;
+}
+div#div2
+{
+transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+-ms-transform:matrix(0.866,0.5,-0.5,0.866,0,0); /* IE 9 */
+-moz-transform:matrix(0.866,0.5,-0.5,0.866,0,0); /* Firefox */
+-webkit-transform:matrix(0.866,0.5,-0.5,0.866,0,0); /* Safari and Chrome */
+-o-transform:matrix(0.866,0.5,-0.5,0.866,0,0); /* Opera */
+}
+</style>
 
-You can use the [editor on GitHub](https://github.com/hllovecyk/oeasy/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body>
+<h2>和我家彦坤在一起已经206天啦！</h2>
+<p>此爱隔山海，山海皆可平</p>
+  
+  <div><img src="1.jpg" width="400" height="400"/>
+<img src="/1.jpg/" /></div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hllovecyk/oeasy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div id="div2">
+  <img src="2.jpg" width="400" height="400"/>
+<img src="/2.jpg/" /></div>
+  
+</body>
+</html>
