@@ -18,9 +18,9 @@ filter:alpha(opacity=100);
   
   div
 {
-width:100px;
+width:400px;
 height:75px;
-background-color:yellow;
+
 border:1px solid black;
 }
 div#div2
